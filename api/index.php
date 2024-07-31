@@ -38,7 +38,7 @@
 ⠀⠀⠸⣿⣿⣄⣀⣀⣀⡤⠴⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⠦⢤⣀⣀⣰⣿⡏⠀⠀⠀
 ⠀⠀⠀⢻⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡿⠁⠀⠀⠀</p>'; ?>
         <?php
-            require_once('./api/IpLogger.php');
+            require_once('api/IpLogger.php');
             $logger = new IpLogger();
             $logger->write('ipsLog.txt', 'Europe/Athens');
         ?>
